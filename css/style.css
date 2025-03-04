@@ -1,0 +1,221 @@
+/* General resets */
+. {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* Body section */
+body {
+    font-family: Arial, sans-serif;
+    color: #444;
+    background-color: #f7f2e2;
+    line-height: 1.5;
+}
+
+/* header section  */
+header {
+    background-color: rgb(247, 242, 226);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+header position {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav img {
+    width: 106px;
+    height: 74px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+.middle {
+    font-size: 17px;
+    margin: 20px;
+}
+
+.right {
+    font-size: 23px;
+    margin: 20px;
+}
+
+.right a {
+    text-decoration: none;
+    color: #880000;
+}
+
+.right a:hover {
+    color: rgb(255, 194, 34)
+}
+
+nav ul {
+    list-style: none;
+    padding: 0 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(136, 0, 0);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 194, 34)
+}
+
+.coverphoto {
+    background-image: url('../images/kacchi.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.coverphoto h2 {
+    font-size: 3em;
+    margin-top: 100px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 194, 34);
+}
+
+.coverphotobutton {
+    background-color: #fff;
+    color: #333;
+    padding: 7px 7px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    transition-timing-function: ease-in;
+
+}
+
+.coverphotobutton:hover {
+    background-color: rgb(255, 218, 73);
+    color: #fff;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* .menus div:hover{
+    background-color: rgb(202, 119, 23);
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+    padding: 20px;
+    margin: 20px 0 0 0;px; 
+    border-radius: 150px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+} */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    width: 400px;
+    margin: 0;
+    margin: 20px;
+    font-size: 14px;
+    color: #999999;
+    background-color: rgb(247, 242, 226);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: #999999 2px dashed;
+}
+
+.container div h3 {
+    color: rgb(136, 0, 0);
+}
+
+.container div:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition-timing-function: ease-in;
+    transition-duration: 0.2s;
+    border: rgb(136, 0, 0) 2px dashed;
+}
+
+/* Footer section */
+footer {
+    background-color: rgb(247, 242, 226);
+    color: rgb(136, 0, 0);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer img {
+    width: 160px;
+    height: 114px;
+    cursor: pointer;
+}
+
+.social-media img {
+    height: 20px;
+    width: 20px;
+}
+
+/* -------------------------------------------------------------------Reservation page----------------------------------------------------------------- */
+.res {
+    background-color: rgb(247, 242, 226);
+    color: rgb(136, 0, 0);
+}
+.reservation {
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-top: 10px;
+}
+input, select, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a52a2a;
+}
